@@ -1,40 +1,16 @@
-function HappyHolidays(string) {
-  return string.toUpperCase()
+//1. Write a function that returns a value
+function happyHolidays(){
+  return "Happy holidays!";
 }
-
-
-
-
-var uppercase, lowercase
- 
-function shout(string){
-  uppercase = string.toUpperCase();
-  string = uppercase;
-  return uppercase;
+//Write a function that takes in a parameter
+function happyHolidaysTo(name){
+  return `Happy holidays, ${name}!`;
 }
-function whisper(string){
-  lowercase = string.toLowerCase();
-  string = lowercase;
-  return lowercase;
+//Write a function that takes in multiple parameters
+function happyHolidayTo(holiday, name){
+  return `Happy ${holiday}, ${name}!`;
 }
-function logShout(string){
-  uppercase = string.toUpperCase()
-  string = uppercase;
-  console.log(uppercase);
-}
-function logWhisper(string){
-  lowercase = string.toLowerCase()
-  string = uppercase;
-  console.log(lowercase);
-}
-function sayHiToGrandma(string){
-    if (string.toLowerCase() === string){
-      return 'I can\'t hear you!';
-    }
-    if (string.toUpperCase() === string){
-      return 'YES INDEED!';
-    }
-    if (string === 'I love you, Grandma.'){
-      return 'I love you, too.';
-    }
+//Write a function that takes in multiple parameters
+function holidayCountdown(holiday, days){
+  return `It's ${days} days until ${holiday}!`;
 }
